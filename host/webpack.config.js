@@ -45,7 +45,7 @@ module.exports = (_, argv) => ({
       filename: "remoteEntry.js",
       remotes: {
         layout: "layout@http://localhost:3001/remoteEntry.js",
-        pages: "pages@http://localhost:3001/remoteEntry.js"
+        pages: "pages@http://localhost:3002/remoteEntry.js",
       },
       exposes: {},
       shared: {
